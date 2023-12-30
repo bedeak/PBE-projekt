@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="sk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header id="h">
+            <h1>PC Vírus</h1>
+        </header>
+        <nav id="n">
+            <a href="index.html" class="navpolozka" id="prvynav"><b>ÚVOD</b></a>
+            <br>
+            <a href="malware.html" class="navpolozka">Malware</a>
+            <br>
+            <a href="ochrana.html" class="navpolozka">Ochrana</a>
+            <br>
+            <a href="videa.html" class="navpolozka">Zábava</a>
+            <!--        <br>
+            <div class="stvorec"></div>
+            <br>
+            <div class="stvorec"></div>
+            <br>
+            <div class="stvorec"></div>
+            <br>
+            <div class="stvorec"></div>
+            <br>
+            <div class="stvorec"></div>
+            <br>-->
+        </nav>
+        <main id="m">
+            <section id="fsection">
+                <h2><strong>Definícia</strong></h2>
+                <p>Počítačový vírus označuje malware, ktorý sa dokáže sám šíriť bez vedomia používateľa. Aby sa mohol rozmnožovať, vkladá kópie svojho kódu do iných spustiteľných súborov alebo dokumentov, ktoré sa tak stávajú prostriedkom na aktiváciu ďalšieho
+                    vírusu.
+                </p>
+            </section>
+            <br>
+            <section id="ssection">
+
+                <h2 class="dlhe"><strong>História</strong></h2>
+                <dl>
+                    <dt><strong>Počiatky (40. až 60. roky)</strong></dt>
+                    <dd>Myšlienka samoreplikujúceho programu, pripomínajúceho počítačový vírus, sa objavila v teoretických diskusiách v rokoch 1940 až 1950. Tieto diskusie však boli skôr akademické než praktické.</dd>
+                    <dt><strong>Vírus Creeper (1971)</strong></dt>
+                    <dd>Prvý známy počítačový vírus v prírode bol vírus Creeper, ktorý sa šíril cez ARPANET v roku 1971. Zobrazoval správu „I'M THE CREEPER. CATCH ME IF YOU CAN!“</dd>
+                    <dt><strong>Koncept zlého kódu (80. roky)</strong></dt>
+                    <dd>Termín „počítačový vírus“ vytvoril v roku 1983 informatik Fred Cohen. Ukázal, že program môže infikovať iné programy, zakladajúc tak pochopenie počítačových vírusov.</dd>
+                    <dt><strong>Vírus Brain (1986)</strong></dt>
+                    <dd>Vírus Brain, vytvorený v Pakistanu Basitom Farooqom Alvím a jeho bratom Amjadom Farooqom Alvim, sa považuje za jeden z prvých PC vírusov. Infikoval štartovací sektor diskiet a zobrazoval oznámenie o autorských právach.</dd>
+                    <dt><strong>Morris Worm (1988)</strong></dt>
+                    <dd>Morris Worm, vytvorený Robertom Tappan Morrisom v roku 1988, bol jedným z prvých prípadov počítačového červa šíriaceho sa internetom, demonštrujúc potenciál rýchleho šírenia infekcií.</dd>
+                    <dt><strong>Prvý polymorfný vírus (90. roky)</strong></dt>
+                    <dd>Polymorfné vírusy sa objavili na začiatku 90. rokov, a Tequila vírus (1991) bol jedným z prvých príkladov. Tieto vírusy mohli meniť svoj vzhľad na uniknutie detekcii.</dd>
+                    <dt><strong>Vírus Michelangelo (1992)</strong></dt>
+                    <dd>Vírus Michelangelo sa dostal do pozornosti v roku 1992 vďaka dátumu svojej aktivácie súbežnému s Michelangelovým narodením. Aj keď médiá venovali veľa pozornosti, skutočný dopad bol menší, než sa očakávalo.</dd>
+                    <dt><strong>Makrovírusy (90. roky)</strong></dt>
+                    <dd>V 90. rokoch sa začali šíriť makrovírusy, ktoré infikovali dokumenty namiesto spustiteľných súborov. Šírili sa prostredníctvom makier v spracovateľskom texte a tabuľkovom procesore.</dd>
+                    <dt><strong>Melissa a ILOVEYOU (1999-2000)</strong></dt>
+                    <dd>Vírus Melissa (1999) a červ ILOVEYOU (2000) boli výrazné incidenty. Melissa sa šírila cez e-mailové prílohy, zatiaľ čo ILOVEYOU využíval sociálne inžinierstvo na oklamanie používateľov.</dd>
+                    <dt><strong>Hrozby 21. storočia (od 2000)</strong></dt>
+                    <dd class="poslednyli">21. storočie prinieslo sofistikovanejšie hrozby vrátane ransomware, spyware a pokročilých perzistentných hrozieb. Vírusy sa vyvinuli tak, aby sa zamerali na finančné inštitúcie, kritickú infraštruktúru a jednotlivcov na rôzne účely.</dd>
+                </dl>
+            </section>
+            <section id="psection">
+
+                <h2><strong>Šírenie</strong></h2>
+                <dl>
+                    <dt><strong>Súbory</strong></dt>
+                    <dd>Vírusy sa často pripájajú k spustiteľným súborom, skriptom alebo dokumentom. Keď používatelia spustia alebo otvoria tieto súbory, vírus sa aktivuje a môže sa šíriť na ďalšie súbory v rovnakom systéme.</dd>
+                    <dt><strong>Prílohy v e-mailoch</strong></dt>
+                    <dd>E-mail je častým vektorom pre šírenie vírusov. Infikované súbory pripojené k e-mailom môžu využívať zraniteľnosti v e-mailových klientoch alebo spoliehať sa na to, že používatelia nevedome otvoria prílohy, čím spustia vírus.</dd>
+                    <dt><strong>Web stránky</strong></dt>
+                    <dd class="poslednyli">Návšteva napadnutých webových stránok alebo sťahovanie súborov z nedôveryhodných zdrojov môže zaviesť vírusy do systému. Sťahovanie súborov a škodlivé skripty na webových stránkach sú metódy, ktoré používajú vírusy na infikovanie používateľov.</dd>
+                </dl>
+            </section>
+            <section id="psection">
+
+                <h2><strong>Payload a účinky</strong></h2>
+                <p>"Payload" počítačového vírusu označuje zlomyselné akcie, ktoré je navrhnutý vykonávať po aktivácii. Porozumenie potenciálneho payloadu a účinkov vírusov je kľúčové pri hodnotení závažnosti infekcie.</p>
+                <dl>
+                    <dt><strong>Korupcia a vymazanie dát</strong></dt>
+                    <dd>Niektoré vírusy sú programované tak, aby korumpovali alebo vymazali dáta na infikovaných systémoch. To môže viesť k strate dôležitých súborov a spôsobiť prerušenia v osobných alebo podnikových operáciách.</dd>
+                    <dt><strong>Nestabilita systému</strong></dt>
+                    <dd>Vírusy môžu cieľovo útočiť na kritické systémové súbory, čo vedie k nestabilite systému. Časté pády, pomalý výkon a neočakávané chyby sú indikátormi potenciálne infikovaného systému.</dd>
+                    <dt><strong>Spyware a krádež informácií</strong></dt>
+                    <dd>Niektoré vírusy fungujú ako spyware, ticho zbierajú citlivé informácie, ako sú prihlasovacie údaje, finančné údaje alebo osobné údaje. Tieto informácie sú potom prenášané na vzdialené servery pod kontrolou útočníkov.</dd>
+                    <dt><strong>Ransomware</strong></dt>
+                    <dd class="poslednyli">Ransomware je typ vírusu, ktorý šifruje súbory na infikovanom systéme, čím ich robí neprístupnými. Útočníci požadujú výkupné za poskytnutie dešifrovacieho kľúča. Neuhradenie výkupného môže viesť k trvaléj strate údajov.</dd>
+                </dl>
+            </section>
+            <section id="tsection">
+
+                <h2><strong>Replikácia</strong></h2>
+                <dl>
+                    <dt><strong>Hostiteľský súbor</strong></dt>
+                    <dd>Vírusy zvyčajne závisia na hlostiteľskom súbore na replikáciu. Keď používateľ spustí infikovaný program alebo otvorí infikovaný dokument, vírus sa aktivuje a vloží sa do ďalších spustiteľných súborov alebo dokumentov.</dd>
+                    <dt><strong>Sieť</strong></dt>
+                    <dd>Niektoré vírusy sú schopné šírenia cez siete využívaním zraniteľností pripojených systémov. Červy, podtyp vírusov, sú známe svojou schopnosťou samostatného šírenia cez siete bez potreby zásahu používateľa.</dd>
+                    <dt><strong>Mechanizmy samoreplikácie</strong></dt>
+                    <dd>Vírusy používajú mechanizmy samoreplikácie na autonómne vytváranie kópií. To môže zahŕňať modifikáciu existujúcich súborov, vkladanie kódu do iných procesov alebo vytváranie nových súborov s kódom vírusu.</dd>
+                    <dt><strong>Techniky maskovania</strong></dt>
+                    <dd class="poslednyli">Na uniknutie detekcii vírusy môžu využívať techniky maskovania, ako je zmena ich kódu alebo používanie šifrovania. Polymorfné vírusy, v tomto smere, môžu meniť svoj vzhľad pri každej replikácii, čo robí rozpoznávanie pre antivírusové
+                        programy náročné.</dd>
+                </dl>
+            </section>
+        </main>
+        <footer id="f">B.Deák 3.E
+        </footer>
+    </div>
+</body>
+
+</html>
